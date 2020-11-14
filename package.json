@@ -48,7 +48,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "storybook": "start-storybook -p 9009 -c .storybook watch-css -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -100,6 +101,7 @@
     "prettier-config-standard": "^1.0.1",
     "react-app-rewired": "^2.1.6",
     "redux-cli": "^1.9.0",
-    "storybook-addon-material-ui": "^0.9.0-alpha.21"
+    "storybook-addon-material-ui": "^0.9.0-alpha.21",
+    "gh-pages": "3.1.0"
   }
 }
