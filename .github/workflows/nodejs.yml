@@ -20,6 +20,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
+        npm install @components/OpenEDIIconHorizontal/node_modules/react
         npm install
         npm run-script build
         npm run-script gh-pages
